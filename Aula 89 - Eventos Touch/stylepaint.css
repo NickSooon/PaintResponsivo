@@ -1,0 +1,36 @@
+.bodyBackground {
+  background-image: url("https://media.us1.twilio.com/ME1e93ea31c5bfd7cb6591aa1882a6a01b?Expires=1701888487&Signature=OLl3cVn5YIvZTXhSaspRdZptsM~aiqVTAdoOOTZFyH6Zk~rh1PorIzKLZUztXBA8S2lKZWwuLZU1t-GKmwsgax70hGAWD4LPt9-CT95dy8dNJETDLZQYZaQy5qiUwsxCd2KAMKn~uFLJwukEG9XYloFioD2692ZMl2lCIU2JrPA0TghlHijF9BWtbBLOX2QWAG-xV6vkvT0htUdZj3d7StZEiFEiqofyL7G-XrAC0U7VC8kcsmW4b1nR5CeS4VVjEezwziRH94bG7eCaNGCrTcr~MQ5TduS6oOU-V2U-VsDbWqZtq9hdWvmBhkA1mm9W3tN4tZ77Rc5yvQONN4hGFw__&Key-Pair-Id=APKAJWF6YVTMIIYOF3AA");
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  overflow:hidden;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+h1 {
+    color: red; 
+    font-size: 40px;
+}
+
+#myCanvas {
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+button {
+  background-color: #4CAF50;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px 42px;
+  font-size: 16px;
+}
+
+input {
+  margin-right: 20px;
+}
